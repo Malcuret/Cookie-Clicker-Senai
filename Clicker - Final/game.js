@@ -7,7 +7,7 @@ const iniciarBotao = document.getElementById("iniciar");
 const tempo = document.getElementById("timer");
 
 let contador = 0;
-let timer = 60;  
+let timer = 30;  
 let podeClicar = false;
 let intervalo;
 
