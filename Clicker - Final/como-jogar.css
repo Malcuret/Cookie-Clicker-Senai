@@ -1,0 +1,21 @@
+.titulo1{
+    text-align: center;
+    margin-top: 300px;
+  }
+.paragrafo1{
+    text-align: center;
+  }
+.paragrafo2{
+    text-align: center;
+  }
+.paragrafo3{
+    text-align: center;
+  }
+.jogo{
+    border-radius: 10000px;
+    border-color: black;
+    margin-left: 725px;
+  }
+*{
+    background-color: white;
+}

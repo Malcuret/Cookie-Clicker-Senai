@@ -1,0 +1,109 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/interior-de-cozinha-cor-azulada-com-pratos-arm%C3%A1rio-fog%C3%A3o-geladeira-confort%C3%A1vel-estilo-desenho-plano-ilustra%C3%A7%C3%A3o-vetorial-226299150.jpg");
+  width: 100%;
+  height: 100%;
+  background-image: url("https://img.freepik.com/vetores-premium/interior-aconchegante-da-cozinha-colorida-com-geladeira-fogao-pratos-de-armario_273525-352.jpg?semt=ais_hybrid&w=740");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+.page {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 30px auto;
+}
+
+
+.loja {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 100%;
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  transition: left 0.3s ease-in-out;
+  text-align: center;
+  background-image: url("https://img.freepik.com/fotos-premium/uma-bandeja-de-biscoitos-com-uma-estrela_659722-3151.jpg");
+  background-size: cover;
+}
+
+.loja.aberta {
+  left: 0;
+}
+
+.Titu {
+  margin-left: 26px;
+  color: rgba(172, 120, 8, 0.952);
+  font-weight: bold;
+  margin-top: 1px;
+  background-color: rgb(102, 36, 6);
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  font-size: 36px;
+}
+
+.iniciar {
+  position: absolute;
+  bottom: 45%;
+  display: flex;
+  left: 46%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-item img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.profile-name {
+  font-size: 30px;
+}
+
+.cookie {
+  width: 200px;
+  height: auto;
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+
+.cookie:active {
+  transform: scale(0.9);
+}
+
+.profile-name {
+  font-size: 24px;
+  max-width: 160px;
+  word-wrap: break-word;
+  white-space: normal;
+  margin: 0;
+  color: rgb(255, 208, 0);
+  background-color: rgb(66, 23, 9);
+  border-style: dotted;
+  padding: 5px;
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 768px; 
+    height: 1024px; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffffc4;
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-perfeito-com-biscoitos-de-desenho-animado-em-um-fundo-branco_393879-975.jpg');
+}
+
+.loja {
+    background-color: rgb(88, 49, 5);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px; 
+    margin: 100px auto 30px; 
+    border: solid 5px black; 
+}
+
+h1 {
+    border-radius: 20px;
+    animation: pulse 2s infinite; 
+    font-style: comic; 
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        color: rgb(255, 133, 117);
+    }
+    50% {
+        transform: scale(1.2);
+        color: rgb(106, 252, 38);
+    }
+    100% {
+        transform: scale(1);
+        color: rgb(40, 155, 255);
+    }
+}
+
+#escolha {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: 5px ridge;
+    border: 10px inset black; 
+    
+}
+
+#imagens img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 5px solid black; 
+    align-items: center;
+    
+}
+
+#imagens img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+
